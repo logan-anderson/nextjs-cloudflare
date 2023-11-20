@@ -12,3 +12,5 @@ export default async function TinaTestPage() {
 }
 
 export const runtime = "edge";
+
+export const revalidate = 0;
