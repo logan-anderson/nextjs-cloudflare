@@ -13,21 +13,26 @@
     "pages:dev": "npx wrangler pages dev .vercel/output/static --compatibility-date=2023-10-30 --compatibility-flag=nodejs_compat"
   },
   "dependencies": {
+    "@tinacms/datalayer": "0.0.0-20231120164218",
     "@types/react": "18.2.37",
     "@types/react-dom": "18.2.15",
     "autoprefixer": "10.4.16",
     "next": "14.0.3",
+    "next-auth": "^4.24.5",
     "postcss": "8.4.31",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.5",
     "tinacms": "^1.5.24",
+    "tinacms-authjs": "^1.0.1",
+    "tinacms-gitprovider-github": "^1.0.0",
     "typescript": "5.2.2",
+    "upstash-redis-level": "^1.1.1",
     "wrangler": "^3.16.0"
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.7.3",
-    "@tinacms/cli": "^1.5.33",
+    "@tinacms/cli": "0.0.0-20231120164218",
     "@types/node": "20.9.1",
     "vercel": "^32.5.5"
   }
